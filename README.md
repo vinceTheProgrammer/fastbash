@@ -1,4 +1,4 @@
-A dead simple bash script manager written in Rust.
+### A dead simple bash script manager written in Rust.
 
 ```
 fastbash — quick script manager
@@ -15,4 +15,10 @@ NOTES:
     - Scripts are saved in ~/.fastbash/scripts
     - Make sure your scripts start with a shebang line (e.g., #!/bin/bash)
     - Set the EDITOR env variable to control which editor is used
+```
+
+### AUR installation
+use your favorite AUR helper such as `yay` to install from the AUR
+```
+yay fastbash
 ```
